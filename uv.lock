@@ -590,12 +590,11 @@ wheels = [
 name = "secure-data-encryption-system"
 version = "0.1.0"
 source = { virtual = "." }
-dependencies = [
-    { name = "streamlit" },
-    { name = "cryptography", version = "39.0.0" }
+dependencies = ["streamlit", "cryptography"]
 
 [package.metadata]
-requires-dist = [{ name = "streamlit", specifier = ">=1.44.1" }]
+requires-dist = ["streamlit >=1.44.1"]
+
 
 [[package]]
 name = "six"
