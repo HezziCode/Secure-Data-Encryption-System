@@ -592,8 +592,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "streamlit" },
-    { name = "cryptography"}
-]
+    { name = "cryptography", version = "39.0.0" }
 
 [package.metadata]
 requires-dist = [{ name = "streamlit", specifier = ">=1.44.1" }]
