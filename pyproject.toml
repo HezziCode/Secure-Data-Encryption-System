@@ -4,7 +4,25 @@ version = "0.1.0"
 description = "A secure data encryption system using Streamlit and cryptography"
 readme = "README.md"
 requires-python = ">=3.11"
+
 dependencies = [
     "streamlit>=1.44.1",
     "cryptography>=39.0.0"
 ]
+
+[tool.poetry]
+name = "secure-data-encryption-system"
+version = "0.1.0"
+description = "A secure data encryption system using Streamlit and cryptography"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.44.1"
+cryptography = "^39.0.0"
+
+[tool.poetry.packages]
+# This is where you define the packages that will be installed
+# Example if you have a folder named 'secure_data_encryption_system'
+# you would add it like this:
+# include = [{ include = "secure_data_encryption_system", from = "src" }]
